@@ -5,19 +5,20 @@
     
 }
 
-main{
+body{
     background-image: url(img/fondo_bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Esto fija la imagen de fondo */
-    
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
-.contenedor_iconos{
-    margin-top: 15px;
-  }
+.contenedor_de_logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: white !important;
+    
+}
 
 /* .bg_img{
     background-image: url(img/fondo_bg.jpg);
